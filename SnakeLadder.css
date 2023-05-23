@@ -1,0 +1,224 @@
+/* td{
+    height: 51.8px;
+    width: 70px;
+    text-align: center;
+    font-weight: bolder;
+    z-index: -1;
+    border: 1px solid black;
+} */
+
+body{
+   margin-top: 0%;
+   background-color: rgb(13, 13, 13);
+   background-image: url(https://s3.zerochan.net/240/03/42/754603.jpg);
+   margin-left: 10px;
+   background-size: 43vw 100vh;
+   background-position: left;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#playBox{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 700px;
+
+    display: grid;
+    z-index: 1;
+    position: absolute;
+    height: 730px; 
+    width: 770px;
+    grid-template-columns: repeat(10, ifr);
+    margin-left: 650px;
+}
+
+.snkB{
+   
+    height: 730px; 
+    width: 770px;
+    margin-top: 0px;
+    z-index: 2;
+    position: absolute;
+}
+
+.yellow{
+    background-color: antiquewhite;
+}
+
+.violet{
+    background-color: #9d099d;
+}
+
+.green{
+    background-color: #42b542;
+}
+
+.deepskyblue{
+    background-color: deepskyblue;    
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: hotpink;
+}
+
+ #l1{
+    position: absolute;
+    top: 71%;
+    transform: rotate(38deg);
+    left: 52%;
+    width: 161px;
+} 
+
+#l2{
+    position: absolute;
+    top: -2%;
+    left: 70%;
+    width: 200px;
+    height: 533px;
+    transform: rotate(-18deg);
+}
+
+#l3{
+    position: absolute;
+    transform: rotate(32deg);
+    width: 161px;
+    top: 1%;
+    left: 40%;
+    height: 228%;
+}
+
+#l4{
+    height: 253px;
+    width: 161px;
+    position: absolute;
+    top: 42%;
+    left: 84%;
+}
+
+#l5{
+    height: 171px;
+    width: 161px;
+    position: absolute;
+    transform: rotate(32deg);
+    top: 1%;
+    left: 87%;
+} 
+
+#player{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: center;
+}
+
+#choose_player{
+    height: 60px;
+    width: 275px;
+    text-align: center;
+    border: solid floralwhite 4px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: deeppink;
+    color: floralwhite;
+    border-radius: 22px;
+    margin-top: 14px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+#color_choose{
+    font-size:x-large;
+    color: floralwhite;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+    visibility: hidden;
+}
+
+#color_choose select{
+    height: 50px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: deeppink;
+    border: solid 4px floralwhite;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+#play{
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    color: floralwhite;
+    border-radius: 40px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: monospace;
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    text-align: center;
+    cursor: pointer; 
+}
+
+#image_slide{
+    background-size: 400px 300px;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 68px;
+    border: solid 6px floralwhite;
+}
+
+#dice{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: solid floralwhite 4px;
+    border-radius: 6px;
+    top: 55%;
+    left: 12%;
+    visibility: hidden;
+}
+
+#poster{
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+
+
+#colorBox{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    border: solid black 4px;
+    top: 73.6%;
+    left: 26%;
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(252, 195, 81);
+}
+
+i{
+  font-size: 30px;
+  border: 3px solid black;
+  z-index: 3;
+  position: absolute;
+}
